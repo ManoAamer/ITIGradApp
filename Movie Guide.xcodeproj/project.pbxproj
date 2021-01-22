@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5E2B26213CED9300153F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E2B25213CED9300153F2D /* AppDelegate.m */; };
+		0D5E2B2C213CED9300153F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5E2B2A213CED9300153F2D /* Main.storyboard */; };
+		0D5E2B2E213CED9300153F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5E2B2D213CED9300153F2D /* Assets.xcassets */; };
+		0D5E2B31213CED9300153F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5E2B2F213CED9300153F2D /* LaunchScreen.storyboard */; };
+		0D5E2B34213CED9300153F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E2B33213CED9300153F2D /* main.m */; };
+		0D5E2B3E213CED9300153F2D /* ITI_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E2B3D213CED9300153F2D /* ITI_ProjectTests.m */; };
+		0D5E2B49213CED9300153F2D /* ITI_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E2B48213CED9300153F2D /* ITI_ProjectUITests.m */; };
+		0D5E2B61213CFFB100153F2D /* MovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E2B60213CFFB100153F2D /* MovieDetails.m */; };
+		C103C663214D17D9007D0E81 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = C103C65E214D17D6007D0E81 /* time.png */; };
+		C103C664214D17D9007D0E81 /* calendar1.png in Resources */ = {isa = PBXBuildFile; fileRef = C103C65F214D17D6007D0E81 /* calendar1.png */; };
+		C103C665214D17D9007D0E81 /* rate.png in Resources */ = {isa = PBXBuildFile; fileRef = C103C660214D17D7007D0E81 /* rate.png */; };
+		C103C666214D17D9007D0E81 /* thumb-up-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C103C661214D17D8007D0E81 /* thumb-up-icon.png */; };
+		C1051FDE2146B97D007031EA /* popOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1051FDD2146B97D007031EA /* popOverViewController.m */; };
+		C12D8D5B214549DB00BA520E /* myPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12D8D5A214549DB00BA520E /* myPlist.plist */; };
+		C17607D12142D5B000C9DE2F /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17607D02142D5B000C9DE2F /* CollectionViewController.m */; };
+		C17607DC21432F6D00C9DE2F /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17607DB21432F6D00C9DE2F /* FavouritesViewController.m */; };
+		C1D0AFCD2145176200F8C3E6 /* DetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D0AFCC2145176200F8C3E6 /* DetailsTableViewController.m */; };
+		F0FA3DE698A1EDD7C6FC00CE /* libPods-ITI Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8356843649C9D80AE9214997 /* libPods-ITI Project.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D5E2B3A213CED9300153F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5E2B19213CED9300153F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5E2B20213CED9300153F2D;
+			remoteInfo = "ITI Project";
+		};
+		0D5E2B45213CED9300153F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5E2B19213CED9300153F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5E2B20213CED9300153F2D;
+			remoteInfo = "ITI Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5E2B21213CED9300153F2D /* Movie Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5E2B24213CED9300153F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D5E2B25213CED9300153F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D5E2B2B213CED9300153F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D5E2B2D213CED9300153F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D5E2B30213CED9300153F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D5E2B32213CED9300153F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5E2B33213CED9300153F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D5E2B39213CED9300153F2D /* Movie GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5E2B3D213CED9300153F2D /* ITI_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITI_ProjectTests.m; sourceTree = "<group>"; };
+		0D5E2B3F213CED9300153F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5E2B44213CED9300153F2D /* Movie GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5E2B48213CED9300153F2D /* ITI_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITI_ProjectUITests.m; sourceTree = "<group>"; };
+		0D5E2B4A213CED9300153F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5E2B5F213CFFB100153F2D /* MovieDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDetails.h; sourceTree = "<group>"; };
+		0D5E2B60213CFFB100153F2D /* MovieDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDetails.m; sourceTree = "<group>"; };
+		8356843649C9D80AE9214997 /* libPods-ITI Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ITI Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C103C65E214D17D6007D0E81 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		C103C65F214D17D6007D0E81 /* calendar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar1.png; sourceTree = "<group>"; };
+		C103C660214D17D7007D0E81 /* rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate.png; sourceTree = "<group>"; };
+		C103C661214D17D8007D0E81 /* thumb-up-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-up-icon.png"; sourceTree = "<group>"; };
+		C1051FDC2146B97D007031EA /* popOverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popOverViewController.h; sourceTree = "<group>"; };
+		C1051FDD2146B97D007031EA /* popOverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popOverViewController.m; sourceTree = "<group>"; };
+		C12D8D5A214549DB00BA520E /* myPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = myPlist.plist; sourceTree = "<group>"; };
+		C17607CF2142D5B000C9DE2F /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		C17607D02142D5B000C9DE2F /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		C17607DA21432F6D00C9DE2F /* FavouritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavouritesViewController.h; sourceTree = "<group>"; };
+		C17607DB21432F6D00C9DE2F /* FavouritesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavouritesViewController.m; sourceTree = "<group>"; };
+		C1D0AFCB2145176200F8C3E6 /* DetailsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsTableViewController.h; sourceTree = "<group>"; };
+		C1D0AFCC2145176200F8C3E6 /* DetailsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsTableViewController.m; sourceTree = "<group>"; };
+		D29D6A3AA527AA63FF04B87D /* Pods-ITI Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITI Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-ITI Project/Pods-ITI Project.release.xcconfig"; sourceTree = "<group>"; };
+		FE0DB94D54BAFCF49E0E40A2 /* Pods-ITI Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITI Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITI Project/Pods-ITI Project.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D5E2B1E213CED9300153F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FA3DE698A1EDD7C6FC00CE /* libPods-ITI Project.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5E2B36213CED9300153F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5E2B41213CED9300153F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071E4BFDFAD31F52AF5ADFC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE0DB94D54BAFCF49E0E40A2 /* Pods-ITI Project.debug.xcconfig */,
+				D29D6A3AA527AA63FF04B87D /* Pods-ITI Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0D5E2B18213CED9300153F2D = {
+			isa = PBXGroup;
+			children = (
+				C103C65F214D17D6007D0E81 /* calendar1.png */,
+				C103C660214D17D7007D0E81 /* rate.png */,
+				C103C661214D17D8007D0E81 /* thumb-up-icon.png */,
+				C103C65E214D17D6007D0E81 /* time.png */,
+				0D5E2B23213CED9300153F2D /* ITI Project */,
+				C1154FE92148106B0015B672 /* Unusable */,
+				0D5E2B3C213CED9300153F2D /* ITI ProjectTests */,
+				0D5E2B47213CED9300153F2D /* ITI ProjectUITests */,
+				0D5E2B22213CED9300153F2D /* Products */,
+				071E4BFDFAD31F52AF5ADFC1 /* Pods */,
+				32494B44EAF8FC1370C72DFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D5E2B22213CED9300153F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E2B21213CED9300153F2D /* Movie Guide.app */,
+				0D5E2B39213CED9300153F2D /* Movie GuideTests.xctest */,
+				0D5E2B44213CED9300153F2D /* Movie GuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5E2B23213CED9300153F2D /* ITI Project */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E2B24213CED9300153F2D /* AppDelegate.h */,
+				0D5E2B25213CED9300153F2D /* AppDelegate.m */,
+				C17607CF2142D5B000C9DE2F /* CollectionViewController.h */,
+				C17607D02142D5B000C9DE2F /* CollectionViewController.m */,
+				0D5E2B5F213CFFB100153F2D /* MovieDetails.h */,
+				0D5E2B60213CFFB100153F2D /* MovieDetails.m */,
+				C17607DA21432F6D00C9DE2F /* FavouritesViewController.h */,
+				C17607DB21432F6D00C9DE2F /* FavouritesViewController.m */,
+				0D5E2B32213CED9300153F2D /* Info.plist */,
+				0D5E2B2A213CED9300153F2D /* Main.storyboard */,
+			);
+			path = "ITI Project";
+			sourceTree = "<group>";
+		};
+		0D5E2B3C213CED9300153F2D /* ITI ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E2B3D213CED9300153F2D /* ITI_ProjectTests.m */,
+				0D5E2B3F213CED9300153F2D /* Info.plist */,
+			);
+			path = "ITI ProjectTests";
+			sourceTree = "<group>";
+		};
+		0D5E2B47213CED9300153F2D /* ITI ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E2B48213CED9300153F2D /* ITI_ProjectUITests.m */,
+				0D5E2B4A213CED9300153F2D /* Info.plist */,
+			);
+			path = "ITI ProjectUITests";
+			sourceTree = "<group>";
+		};
+		32494B44EAF8FC1370C72DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8356843649C9D80AE9214997 /* libPods-ITI Project.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1154FE92148106B0015B672 /* Unusable */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E2B2F213CED9300153F2D /* LaunchScreen.storyboard */,
+				0D5E2B2D213CED9300153F2D /* Assets.xcassets */,
+				C12D8D5A214549DB00BA520E /* myPlist.plist */,
+				0D5E2B33213CED9300153F2D /* main.m */,
+				C1051FDC2146B97D007031EA /* popOverViewController.h */,
+				C1051FDD2146B97D007031EA /* popOverViewController.m */,
+				C1D0AFCB2145176200F8C3E6 /* DetailsTableViewController.h */,
+				C1D0AFCC2145176200F8C3E6 /* DetailsTableViewController.m */,
+			);
+			path = Unusable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D5E2B20213CED9300153F2D /* Movie Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5E2B4D213CED9300153F2D /* Build configuration list for PBXNativeTarget "Movie Guide" */;
+			buildPhases = (
+				E5C01D126D97B43ADEA2A6A8 /* [CP] Check Pods Manifest.lock */,
+				0D5E2B1D213CED9300153F2D /* Sources */,
+				0D5E2B1E213CED9300153F2D /* Frameworks */,
+				0D5E2B1F213CED9300153F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movie Guide";
+			productName = "ITI Project";
+			productReference = 0D5E2B21213CED9300153F2D /* Movie Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D5E2B38213CED9300153F2D /* Movie GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5E2B50213CED9300153F2D /* Build configuration list for PBXNativeTarget "Movie GuideTests" */;
+			buildPhases = (
+				0D5E2B35213CED9300153F2D /* Sources */,
+				0D5E2B36213CED9300153F2D /* Frameworks */,
+				0D5E2B37213CED9300153F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5E2B3B213CED9300153F2D /* PBXTargetDependency */,
+			);
+			name = "Movie GuideTests";
+			productName = "ITI ProjectTests";
+			productReference = 0D5E2B39213CED9300153F2D /* Movie GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D5E2B43213CED9300153F2D /* Movie GuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5E2B53213CED9300153F2D /* Build configuration list for PBXNativeTarget "Movie GuideUITests" */;
+			buildPhases = (
+				0D5E2B40213CED9300153F2D /* Sources */,
+				0D5E2B41213CED9300153F2D /* Frameworks */,
+				0D5E2B42213CED9300153F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D5E2B46213CED9300153F2D /* PBXTargetDependency */,
+			);
+			name = "Movie GuideUITests";
+			productName = "ITI ProjectUITests";
+			productReference = 0D5E2B44213CED9300153F2D /* Movie GuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5E2B19213CED9300153F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Abdul Rahman Aamer";
+				TargetAttributes = {
+					0D5E2B20213CED9300153F2D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0D5E2B38213CED9300153F2D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D5E2B20213CED9300153F2D;
+					};
+					0D5E2B43213CED9300153F2D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D5E2B20213CED9300153F2D;
+					};
+				};
+			};
+			buildConfigurationList = 0D5E2B1C213CED9300153F2D /* Build configuration list for PBXProject "Movie Guide" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D5E2B18213CED9300153F2D;
+			productRefGroup = 0D5E2B22213CED9300153F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D5E2B20213CED9300153F2D /* Movie Guide */,
+				0D5E2B38213CED9300153F2D /* Movie GuideTests */,
+				0D5E2B43213CED9300153F2D /* Movie GuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5E2B1F213CED9300153F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5E2B31213CED9300153F2D /* LaunchScreen.storyboard in Resources */,
+				C12D8D5B214549DB00BA520E /* myPlist.plist in Resources */,
+				C103C666214D17D9007D0E81 /* thumb-up-icon.png in Resources */,
+				C103C663214D17D9007D0E81 /* time.png in Resources */,
+				C103C664214D17D9007D0E81 /* calendar1.png in Resources */,
+				0D5E2B2E213CED9300153F2D /* Assets.xcassets in Resources */,
+				0D5E2B2C213CED9300153F2D /* Main.storyboard in Resources */,
+				C103C665214D17D9007D0E81 /* rate.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5E2B37213CED9300153F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5E2B42213CED9300153F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5C01D126D97B43ADEA2A6A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ITI Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5E2B1D213CED9300153F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17607DC21432F6D00C9DE2F /* FavouritesViewController.m in Sources */,
+				0D5E2B34213CED9300153F2D /* main.m in Sources */,
+				0D5E2B26213CED9300153F2D /* AppDelegate.m in Sources */,
+				C1051FDE2146B97D007031EA /* popOverViewController.m in Sources */,
+				C17607D12142D5B000C9DE2F /* CollectionViewController.m in Sources */,
+				C1D0AFCD2145176200F8C3E6 /* DetailsTableViewController.m in Sources */,
+				0D5E2B61213CFFB100153F2D /* MovieDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5E2B35213CED9300153F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5E2B3E213CED9300153F2D /* ITI_ProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5E2B40213CED9300153F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5E2B49213CED9300153F2D /* ITI_ProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D5E2B3B213CED9300153F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5E2B20213CED9300153F2D /* Movie Guide */;
+			targetProxy = 0D5E2B3A213CED9300153F2D /* PBXContainerItemProxy */;
+		};
+		0D5E2B46213CED9300153F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5E2B20213CED9300153F2D /* Movie Guide */;
+			targetProxy = 0D5E2B45213CED9300153F2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D5E2B2A213CED9300153F2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5E2B2B213CED9300153F2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D5E2B2F213CED9300153F2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D5E2B30213CED9300153F2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D5E2B4B213CED9300153F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D5E2B4C213CED9300153F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D5E2B4E213CED9300153F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0DB94D54BAFCF49E0E40A2 /* Pods-ITI Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM982ZY392;
+				INFOPLIST_FILE = "ITI Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Movie-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0D5E2B4F213CED9300153F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29D6A3AA527AA63FF04B87D /* Pods-ITI Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM982ZY392;
+				INFOPLIST_FILE = "ITI Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Movie-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0D5E2B51213CED9300153F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ITI ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ITI-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Guide.app/Movie Guide";
+			};
+			name = Debug;
+		};
+		0D5E2B52213CED9300153F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ITI ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ITI-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Guide.app/Movie Guide";
+			};
+			name = Release;
+		};
+		0D5E2B54213CED9300153F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ITI ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ITI-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ITI Project";
+			};
+			name = Debug;
+		};
+		0D5E2B55213CED9300153F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ITI ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.ITI-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ITI Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5E2B1C213CED9300153F2D /* Build configuration list for PBXProject "Movie Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E2B4B213CED9300153F2D /* Debug */,
+				0D5E2B4C213CED9300153F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5E2B4D213CED9300153F2D /* Build configuration list for PBXNativeTarget "Movie Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E2B4E213CED9300153F2D /* Debug */,
+				0D5E2B4F213CED9300153F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5E2B50213CED9300153F2D /* Build configuration list for PBXNativeTarget "Movie GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E2B51213CED9300153F2D /* Debug */,
+				0D5E2B52213CED9300153F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5E2B53213CED9300153F2D /* Build configuration list for PBXNativeTarget "Movie GuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E2B54213CED9300153F2D /* Debug */,
+				0D5E2B55213CED9300153F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D5E2B19213CED9300153F2D /* Project object */;
+}
